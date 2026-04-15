@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint."
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
