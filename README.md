@@ -1,2 +1,2 @@
-#CI/CD test
-![CI](https://github.com/USERNAME/REPO/actions/workflows/ci.yml/badge.svg)
+# CI/CD test
+![CI](https://github.com/Vyacheslav-hub/Unit_testing/actions/workflows/ci.yml/badge.svg)
