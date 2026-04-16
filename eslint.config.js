@@ -9,10 +9,15 @@ export default defineConfig([
     languageOptions: {
     globals: {
       ...globals.browser,
-      ...globals.jest
-    }}
+      ...globals.jest,
+      ...globals.node
+    }},
+    rules: {
+      "no-unused-vars": "warn"
+    }
   },
   {
     ignores: ["dist", "node_modules", "coverage"]
   },
+
 ]);
